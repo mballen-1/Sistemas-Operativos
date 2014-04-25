@@ -22,7 +22,9 @@ public class EnteroPotencia {
 
     public static void main(String args[]) {
         Scanner lector = new Scanner(System.in);
+	System.out.println("Ingresa la base");
         int base = lector.nextInt();
+	System.out.println("Ingresa el exponente");
         int exponente = lector.nextInt();
         System.out.printf("%d\n", enteroPotencia(base, exponente));
 
